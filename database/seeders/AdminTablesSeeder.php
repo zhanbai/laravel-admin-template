@@ -28,7 +28,7 @@ class AdminTablesSeeder extends Seeder
                 ],
                 [
                     "icon" => "fa-tasks",
-                    "order" => 2,
+                    "order" => 3,
                     "parent_id" => 0,
                     "permission" => NULL,
                     "title" => "系统管理",
@@ -36,7 +36,7 @@ class AdminTablesSeeder extends Seeder
                 ],
                 [
                     "icon" => "fa-users",
-                    "order" => 3,
+                    "order" => 4,
                     "parent_id" => 2,
                     "permission" => NULL,
                     "title" => "管理员",
@@ -44,7 +44,7 @@ class AdminTablesSeeder extends Seeder
                 ],
                 [
                     "icon" => "fa-user",
-                    "order" => 4,
+                    "order" => 5,
                     "parent_id" => 2,
                     "permission" => NULL,
                     "title" => "角色",
@@ -52,7 +52,7 @@ class AdminTablesSeeder extends Seeder
                 ],
                 [
                     "icon" => "fa-ban",
-                    "order" => 5,
+                    "order" => 6,
                     "parent_id" => 2,
                     "permission" => NULL,
                     "title" => "权限",
@@ -60,7 +60,7 @@ class AdminTablesSeeder extends Seeder
                 ],
                 [
                     "icon" => "fa-bars",
-                    "order" => 6,
+                    "order" => 7,
                     "parent_id" => 2,
                     "permission" => NULL,
                     "title" => "菜单",
@@ -68,11 +68,19 @@ class AdminTablesSeeder extends Seeder
                 ],
                 [
                     "icon" => "fa-history",
-                    "order" => 7,
+                    "order" => 8,
                     "parent_id" => 2,
                     "permission" => NULL,
                     "title" => "操作日志",
                     "uri" => "auth/logs"
+                ],
+                [
+                    "icon" => "fa-users",
+                    "order" => 2,
+                    "parent_id" => 0,
+                    "permission" => NULL,
+                    "title" => "用户管理",
+                    "uri" => "/users"
                 ]
             ]
         );
